@@ -2,13 +2,12 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
   color: #333;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 .container {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 20px;
   background: #fff;
   border-radius: 8px;
@@ -65,4 +64,342 @@ button {
 button:hover {
   background-color: #0056b3;
   transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+      margin: 20px;
+      padding: 15px;
+  }
+  h1 {
+      font-size: 2.2em;
+  }
+  #question {
+      font-size: 1.4em;
+  }
+  .answer {
+      width: calc(50% - 20px);
+      margin: 10px;
+      display: inline-block;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+      font-size: 2em;
+  }
+  #question {
+      font-size: 1.3em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.8em;
+  }
+  #question {
+      font-size: 1.2em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+      font-size: 1.5em;
+  }
+  #question {
+      font-size: 1.1em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
+} body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+#question {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#answers {
+  margin-bottom: 20px;
+}
+.answer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.answer:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+.correct {
+  background-color: #c8e6c9;
+}
+.incorrect {
+  background-color: #ffcdd2;
+}
+#score {
+  font-size: 1.2em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+      margin: 20px;
+      padding: 15px;
+  }
+  h1 {
+      font-size: 2.2em;
+  }
+  #question {
+      font-size: 1.4em;
+  }
+  .answer {
+      width: calc(50% - 20px);
+      margin: 10px;
+      display: inline-block;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+      font-size: 2em;
+  }
+  #question {
+      font-size: 1.3em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.8em;
+  }
+  #question {
+      font-size: 1.2em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+      font-size: 1.5em;
+  }
+  #question {
+      font-size: 1.1em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
+} body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+#question {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#answers {
+  margin-bottom: 20px;
+}
+.answer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.answer:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+.correct {
+  background-color: #c8e6c9;
+}
+.incorrect {
+  background-color: #ffcdd2;
+}
+#score {
+  font-size: 1.2em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  .container {
+      margin: 20px;
+      padding: 15px;
+  }
+  h1 {
+      font-size: 2.2em;
+  }
+  #question {
+      font-size: 1.4em;
+  }
+  .answer {
+      width: calc(50% - 20px);
+      margin: 10px;
+      display: inline-block;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+      font-size: 2em;
+  }
+  #question {
+      font-size: 1.3em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.8em;
+  }
+  #question {
+      font-size: 1.2em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+      font-size: 1.5em;
+  }
+  #question {
+      font-size: 1.1em;
+  }
+  .answer {
+      width: calc(100% - 20px);
+      margin: 10px auto;
+      display: block;
+  }
+  button {
+      width: 100%;
+      box-sizing: border-box;
+  }
 }
